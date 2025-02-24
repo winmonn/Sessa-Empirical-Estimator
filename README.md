@@ -1,5 +1,9 @@
 # **Assignment 2: Clustering with Sessa Empirical Estimator**  
 
+## **Submitted by:**  
+**Kyn R. Honoridez**  
+**Al Winmon T. Montebon**  
+
 ## **Overview**  
 This assignment focuses on implementing the **Sessa Empirical Estimator** for clustering. We will convert existing **R code** to **Python**, apply it to real-world or simulated datasets, and compare different clustering techniques to evaluate their effectiveness.  
 
@@ -12,10 +16,10 @@ This assignment focuses on implementing the **Sessa Empirical Estimator** for cl
 - Convert the existing **R code** to **Python** using **Jupyter Notebook**.  
 
 ### **3. Data Selection & Preprocessing**  
-- Use either:  
-  - **Simulated data**: [Frontiers in Pharmacology Dataset](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2019.00383/full)  
-  - **Real-world dataset**: Available on **[Kaggle](https://www.kaggle.com/)** or **[UCI Machine Learning Repository](https://archive.ics.uci.edu/)**  
-- Perform the **Sessa Empirical Estimator** on the chosen dataset and generate insights.  
+- Use the following dataset for the **Sessa Empirical Estimator**:  
+  - **[med.events.ATC Dataset](https://search.r-project.org/CRAN/refmans/AdhereR/html/med.events.ATC.html)**  
+  - **[med.events Dataset](https://rdrr.io/cran/AdhereR/man/med.events.html)**  
+- Perform the **Sessa Empirical Estimator** on the dataset and generate insights.  
 
 ### **4. Experiment with Alternative Clustering Algorithms**  
 - The **Sessa Empirical Estimator** primarily uses **K-Means** clustering.  
@@ -25,12 +29,18 @@ This assignment focuses on implementing the **Sessa Empirical Estimator** for cl
 - Evaluate results from **K-Means vs. the alternative algorithm**.  
 - Identify **strengths and weaknesses** of each clustering method.  
 
+### **6. Implement Callable Functions**  
+- Create a **callable function for each step** of the process.  
+- Ensure these functions **produce the same results** as the Jupyter Notebook implementation.  
+- Compare insights generated using both approaches.  
+
 ## **Deliverables**  
 - **Python code implementation** in **Jupyter Notebook**.  
+- **Callable functions for each step** to validate the results.  
 - **Comparison report** discussing insights gained from different clustering methods.  
 
 ## **Deadline**  
-📅 **Sunday, February 23, 2022, at 11:59 PM**  
+📅 **Tuesday, February 25, 2025, at 11:59 PM**  
 
 ## **Collaboration Guidelines**  
 👥 **Work with your thesis partner** to complete the assignment.  
